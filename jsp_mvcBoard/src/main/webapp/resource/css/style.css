@@ -1,0 +1,59 @@
+body {
+    background: #f6f4ee;
+}
+
+header {
+    background: #655345;
+}
+
+header h1, h2 {
+    text-align: center;
+    color: white;
+}
+
+.header-sub-title::before{
+    content: "";
+    display: block;
+    width: 40%;
+    margin: 1rem auto;
+    height: 1px;
+    background-color: white;
+}
+
+table th {
+    font-weight: normal;
+}
+table td {
+    vertical-align: center;
+}
+
+.title-hover:hover, .down-hover:hover{
+    border-bottom: 1px solid black;
+}
+
+.table-bordered-top {
+    border-top: 1px solid black;
+}
+
+#post-writer{
+    font-weight: bold;
+}
+
+#span-post-idx, #post-date, #post-visits{
+    font-size: small;
+    color: grey;
+}
+
+.write-file > .input-group-text {
+    font-size: small;
+    color: grey;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+}
+
+.article-file #post-ofile {
+    cursor: pointer;
+}
+
+
+
